@@ -12,6 +12,6 @@ COPY . /docker-registry
 COPY ./config/boto.cfg /etc/boto.cfg
 
 # Install core
-RUN apt-get install -y node
+RUN apt-get install -y curl
 
 
