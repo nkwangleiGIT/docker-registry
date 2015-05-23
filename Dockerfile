@@ -14,4 +14,6 @@ COPY ./config/boto.cfg /etc/boto.cfg
 # Install core
 RUN apt-get install -y curl
 
+expose  5100
+
 
