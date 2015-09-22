@@ -12,7 +12,7 @@ COPY . /docker-registry
 COPY ./config/boto.cfg /etc/boto.cfg
 
 # Install core
-RUN apt-get install -y curl
+#RUN apt-get install -y curl
 
 expose  5100
 
